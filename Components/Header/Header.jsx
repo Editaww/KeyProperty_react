@@ -5,7 +5,6 @@ import burgerBtn from "../../assets/burgerBtn.svg";
 
 const Header = () => {
   const links = [
-    { link: "/", title: "Home" },
     { link: "/Gallery", title: "Gallery" },
     { link: "/Main", title: "Add Property" },
     { link: "/Contacts", title: "Contacts" },

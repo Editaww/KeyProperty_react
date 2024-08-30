@@ -5,7 +5,6 @@ import Footer from "../../Components/Footer/Footer";
 
 const mainContentPage = () => {
   const links = [
-    { link: "/", title: "Home" },
     { link: "/main", title: "Add Property" },
     { link: "/gallery", title: "Gallery" },
     { link: "/contacts", title: "Contacts" },
