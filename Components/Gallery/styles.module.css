@@ -1,0 +1,20 @@
+.main {
+  background-color: rgb(156, 130, 109);
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
