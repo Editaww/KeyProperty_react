@@ -1,0 +1,14 @@
+.main {
+  background-color: rgb(156, 130, 109) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 4rem;
+}
+.main button {
+  width: 300px;
+}
+.main input {
+  width: 1000px;
+}

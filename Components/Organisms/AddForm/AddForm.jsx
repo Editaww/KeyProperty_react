@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Input from "../../Atoms/Input/Input";
 import Button from "../../Atoms/Button/Button";
 import axios from "axios";
-import styles from "../Form/styles.module.css";
+import styles from "../AddForm/styles.module.css";
 
-const Form = () => {
+const AddForm = () => {
   const [formData, setFormData] = useState({
     title: "",
     city: "",
@@ -50,7 +50,7 @@ const Form = () => {
         name="imgUrl"
         value={formData.imgUrl}
         onChange={updateFormData}
-        placeholder="Enter image URL"
+        placeholder="Image URL"
       />
 
       <Input
@@ -58,21 +58,21 @@ const Form = () => {
         name="title"
         value={formData.title}
         onChange={updateFormData}
-        placeholder="Enter property title"
+        placeholder="Title"
       />
       <Input
         type="text"
         name="city"
         value={formData.city}
         onChange={updateFormData}
-        placeholder="Enter city"
+        placeholder="City"
       />
       <Input
         type="number"
         name="price"
         value={formData.price}
         onChange={updateFormData}
-        placeholder="Enter price"
+        placeholder="Price"
       />
 
       <Button className={styles.button} onClick={postForm}>
@@ -84,4 +84,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default AddForm;

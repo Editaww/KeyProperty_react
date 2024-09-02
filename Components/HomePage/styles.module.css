@@ -10,7 +10,6 @@
   background-size: cover;
   background-position: center;
   object-fit: cover;
-  z-index: -1;
 }
 
 .main p {

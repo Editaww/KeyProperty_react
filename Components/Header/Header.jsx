@@ -5,9 +5,10 @@ import burgerBtn from "../../assets/burgerBtn.svg";
 
 const Header = () => {
   const links = [
-    { link: "/Gallery", title: "Gallery" },
-    { link: "/Main", title: "Add Property" },
-    { link: "/Contacts", title: "Contacts" },
+    { link: "/", title: "Home" },
+    { link: "/gallery", title: "Gallery" },
+    { link: "/main", title: "Add Property" },
+    { link: "/contacts", title: "Contacts" },
   ];
   const [isShowOverlay, setShowOverlay] = useState(false);
 
